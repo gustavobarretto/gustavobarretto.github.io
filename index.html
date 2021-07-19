@@ -1,60 +1,99 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Loja MasterSound</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/logo.png">
+    <title>Portfolio</title>
+    <img id='logo' src="./img/logo.png" alt="">
+    <header>
+        <img id='logo' src="./img/logo.png" alt="">
+        <div>
+            <a class="menu" href="#index">HOME</a>
+            <a class="menu" href="#bio">BIO</a>
+            <a class="menu" href="#projects">PROJECTS</a>
+            <a class="menu" href="#contact">CONTACT</a>
+        </div>
+    </header>
+    <hr class='line' size="4">
+    
+    
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home"><i class="fa fa-home" aria-hidden="true"></i>HOME</a></li>
-                <li><a href="#produtos"><i class="fa fa-music" aria-hidden="true"></i>PRODUTOS</a></li>
-                <li><a href="#contato"><i class="fa fa-mobile" aria-hidden="true"></i>CONTATO</a></li>
-                <li><a href="#localizacao"><i class="fa fa-map-marker" aria-hidden="true"></i>LOCALIZAÇÃO</a></li>
-            </ul>
-            <a href="https://www.amazon.com.br/Guitarra-Michael-Paul-Ouro-GM730n/dp/B0971R3KJ8/ref=sr_1_6?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=guitarra&qid=1624384576&sr=8-6">
-                <i class="fa fa-shopping-cart" id="carrinho1" aria-hidden="true"></i>
-            </a>
+    
+    <div id='index'>
+        <a name="index"></a>
+        <h1>Portfolio by Gustavo Barretto</h1>
+        <img id='welcome-image' src="./img/program-welcome.jpg" alt="">
+        <div id='welcome'>
+            <p>Welcome to the portfolio of Gustavo Barretto. Here you get know me better, my history and my projects. You also can see, here, my skills in web developer.</p>
+        </div>
+        <hr class='line' size="4">  
+    </div>
+    <div id='bio'>
+        <a name="bio"><h2>BIO</h2></a>
+        <div id="bio-img">
+            <img src="./img/profile-photo.jpeg" alt="">
+            <p>Hello! My name is Gustavo Barretto. My love for tecnology began since I was a kid, but my professional dedication started a while ago. I have a great time beeing challenge, with cods and other problems to solve. All my life I solve problems, as a lawyer in Brazil, and now coding, always searching to make the difference. Take a look in my skills:</p>
             
-        </nav>
-    </header>
-    <!-- Main -->
-    <main>
-        <a name="home"></a>
-        <img class='banner' src="./img/banner" alt="">  
-        <h1>MasterSound</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis tempora placeat corporis quam sit reprehenderit magni debitis rerum velit maxime iusto cumque recusandae, praesentium delectus nostrum voluptates earum quas ducimus?</p>
-        <h2>Instrumentos</h2>
-        <div class='produtos1'>
-            <h3>Piano</h3>
-            <img class='produtos' src="./img/instrumento (3).jpg" alt="">
-        </div>
-        <div class='produtos1'>
-            <h3>Violino</h3>
-            <img class='produtos' src="./img/instrumento (1).jpg" alt="">
-        </div>
-        <div class='produtos1'>
-            <h3>Bateria</h3>
-            <img class='produtos' src="./img/instrumento (2).jpg" alt="">
-        </div>
-        
-        
-       
 
-    </main>
-    <!-- Footer -->
-    <footer>
-        <a href="INSTAGRAM"><img src="" alt=""></a>
-        <a href="FACEBOOK"><img src="" alt=""></a>
-        <a href="WHATSAPP"><img src="" alt=""></a>
-        <p>Developer by Giselle Piasetzki, Gustavo Barretto, Mia Arjona, Pedro Henrique, Vitor Galbier</p>
-    </footer>
+        </div>
+        <div id="bioskills">
+            
+            
+            <div id='code'>
+                <h4><img src="./img/code.svg" alt="">Languages:</h4>
+                <ol>
+                    <li>Python</li>
+                    <li>Javascript</li>
+                    <li>MySQL</li>
+                    <li>HTML and CSS</li>
+                </ol>
+            </div>
+            <div id='softskills'>
+                <h4><img src="./img/softskills.svg" alt="">Softskills:</h4>
+                <ol>
+                    <li>I was Director in the Prerrogatives Comission in the Order of Lawyers of Brazil, section State of Bahia, between 2018-2021, and coordenate fifty members with others four Directors. I was Parecerist Director, writing analyzes about actions made by public servers against lawyers with sugestions awnsers by the Order and I coordenate a five members team.</li>
+                    <li>I was teacher in the chair of Constitucional Law and Political Science in Universidade Salvador - UNIFACS, State of Bahia, between 2018 to 2021.</li>
+                </ol>
+            </div>
+            <div id='experience'>
+                <h4><img src="./img/experience.svg" alt="">Experience:</h4>
+                <p>I have no jobs experience, but you can see how much I want to dedicated my time in programming seeing the <a href="#projects">Projects</a> below.</p>
+    
+            </div>
+            
+        </div>    
+        
+    </div>
+    <hr class='line' size="4">    
+    <div id='projects'>
+        <a name="projects"><h2>PROJECTS</h2></a>
+        <p>Here you can see all my projects. If you want see the code, you can acess my <a href="https://github.com/gustavobarretto"><b>GitHub</b></a> profile.</p>
 
+    </div>
+    <hr class='line' size="4">
+    <div id="contact">
+        <a name="contact"><h2>CONTACT</h2></a>
+        <p>Here you can mail me for more information or acess my social midias</p>
+    </div>
+    <hr class='line' size="4">
+    
+<footer>
+    <b>
+        <a href="https://www.linkedin.com/in/gustavo-barretto1/"><img src="./img/linkedin-icon-seeklogo.com.svg" alt="" height="25px" width="25px"></a>
+        <a href="https://www.instagram.com/gustavobarretto/"><img src="./img/instagram-seeklogo.com.svg" alt="" height="25px" width="25px"></a>
+        <a href="https://github.com/gustavobarretto"><img src="./img/github-icon.svg" alt="" height="25px" width="25px"></a>
+        <a href="http://api.whatsapp.com/send?phone=5571991672992"><img src="./img/whatsapp.svg" alt=""></a>
+    </b>
+</footer>
+<img class='whatsapp' src="./img/whatsapp.svg" alt="">  
+<p>Develop by Gustavo Barretto.</p>
+<p>© Copyright 2021</p>
+<p>All rights reserved.</p>
 </body>
 </html>
