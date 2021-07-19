@@ -44,8 +44,18 @@ header img {
 }
 
 .bio {
-    display: flex;
+    display: inline-flex;
     align-items: center;
+    padding: 10px;
+}
+
+.bio a {
+    color: black;
+    
+}
+
+.bio h2 {
+    margin-left: 50px;
 }
 
 .bio p {
